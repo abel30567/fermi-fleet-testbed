@@ -14,7 +14,7 @@ test('crossProduct anticommutative', () => {
 	assert.deepEqual(crossProduct([0, 1, 0], [1, 0, 0]), [0, 0, -1])
 })
 
-test('crossProduct parallel vectors yield zero', (() => {
+test('crossProduct parallel vectors yield zero', () => {
 	assert.deepEqual(crossProduct([2, 4, 6], [1, 2, 3]), [0, 0, 0])
 })
 
